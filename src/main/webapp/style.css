@@ -127,3 +127,21 @@ border-bottom:1px solid #ddd;
 text-align:center;
 margin-top:20px;
 }
+
+.bill-box{
+width:400px;
+margin:30px auto;
+background:white;
+padding:25px;
+text-align:center;
+border-radius:10px;
+}
+
+.cart-item{
+background:white;
+width:400px;
+margin:15px auto;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px gray;
+}
