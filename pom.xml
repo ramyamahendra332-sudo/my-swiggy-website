@@ -1,0 +1,9 @@
+# my-swiggy-website
+
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.app</groupId>
+    <artifactId>swiggy-app</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+</project>
