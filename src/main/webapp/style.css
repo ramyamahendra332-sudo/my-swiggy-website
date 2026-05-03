@@ -1,0 +1,129 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f8f8f8;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#fc8019;
+}
+
+.navbar a{
+text-decoration:none;
+margin-left:20px;
+color:#333;
+font-weight:bold;
+}
+
+.hero{
+height:500px;
+background:#fc8019;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero p{
+font-size:22px;
+margin:20px 0;
+}
+
+button{
+padding:14px 24px;
+background:#282c3f;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:6px;
+}
+
+.offers{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.offer{
+background:white;
+padding:25px;
+width:220px;
+text-align:center;
+box-shadow:0 2px 10px gray;
+border-radius:12px;
+}
+
+.title{
+text-align:center;
+margin:30px;
+}
+
+#search{
+display:block;
+margin:20px auto;
+padding:15px;
+width:400px;
+}
+
+.restaurant-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card h3{
+margin:10px 0;
+}
+
+#cartItems{
+width:500px;
+margin:30px auto;
+background:white;
+padding:20px;
+list-style:none;
+}
+
+#cartItems li{
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+
+.checkout-box{
+text-align:center;
+margin-top:20px;
+}
