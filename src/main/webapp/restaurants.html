@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurants</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Swiggy</div>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<h1 class="title">Top Restaurants</h1>
+
+<input type="text" id="search" placeholder="Search..." onkeyup="searchRestaurant()">
+
+<div class="restaurant-grid" id="restaurantGrid">
+
+<div class="card">
+<img src="https://picsum.photos/300/200?1">
+<h3>Pizza Hut</h3>
+<p>⭐ 4.5 • 30 mins</p>
+<button onclick="addToCart('Pizza Hut')">Add</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?2">
+<h3>KFC</h3>
+<p>⭐ 4.3 • 25 mins</p>
+<button onclick="addToCart('KFC')">Add</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?3">
+<h3>Burger King</h3>
+<p>⭐ 4.4 • 20 mins</p>
+<button onclick="addToCart('Burger King')">Add</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?4">
+<h3>Dominos</h3>
+<p>⭐ 4.6 • 18 mins</p>
+<button onclick="addToCart('Dominos')">Add</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
