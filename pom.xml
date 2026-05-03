@@ -1,11 +1,25 @@
-# my-swiggy-website
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-<modelVersion>4.0.0</modelVersion> <groupId>com.swiggy</groupId> <artifactId>my-swiggy-website</artifactId> <version>1.0</version> <packaging>war</packaging>
+```
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>com.swiggy</groupId>
+<artifactId>my-swiggy-website</artifactId>
+<version>1.0.0</version>
+
+<packaging>war</packaging>
+
+<name>my-swiggy-website</name>
+
+<build>
+    <finalName>my-swiggy-website</finalName>
+</build>
+```
 
 </project>
+
+
