@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cart</title>
-  <link rel="stylesheet" href="style.css">
+<title>Cart</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav class="navbar">
-  <div class="logo">Swiggy</div>
-  <a href="restaurants.html">Restaurants</a>
+<div class="logo">Swiggy</div>
+<a href="restaurants.html">Restaurants</a>
 </nav>
 
 <h1 class="title">Your Cart</h1>
 
-<ul id="cartItems"></ul>
+<div id="cartContainer"></div>
 
-<div class="checkout-box">
-<button onclick="checkout()">Checkout</button>
+<div class="bill-box">
+<h2>Total: ₹<span id="total">0</span></h2>
+<button onclick="payNow()">Pay Now</button>
 </div>
 
 <script src="script.js"></script>
