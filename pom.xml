@@ -15,11 +15,14 @@
 
 <name>my-swiggy-website</name>
 
+<description>Swiggy Web Application</description>
+
 <build>
     <finalName>my-swiggy-website</finalName>
 </build>
 ```
 
 </project>
+
 
 
